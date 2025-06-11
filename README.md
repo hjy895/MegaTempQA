@@ -116,8 +116,6 @@ Our comprehensive evaluation demonstrates:
 @dataset{megatempqa2025,
   title={MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs for Language Models},
   year={2025},
-  publisher={GitHub},
-  url={https://github.com/yourusername/MegaTempQA}
 }
 ```
 
