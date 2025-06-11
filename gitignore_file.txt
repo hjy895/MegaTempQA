@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.csv
+*.json
+*.parquet
+!data/sample_dataset.csv
+!data/schema.json
+data/generated/
+data/raw/
+
+# Models and checkpoints
+models/
+checkpoints/
+*.bin
+*.safetensors
+
+# Environment
+.env
+.venv
+venv/
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary
+tmp/
+temp/
