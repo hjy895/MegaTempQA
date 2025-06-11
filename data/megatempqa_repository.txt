@@ -1,0 +1,201 @@
+# MegaTempQA Repository Structure
+
+## README.md
+```markdown
+# 🕰️ MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs
+
+
+## 📊 Overview
+
+**MegaTempQA** is the largest temporal question answering dataset to date, containing over **250 million** carefully curated question-answer pairs designed to evaluate temporal reasoning capabilities in large language models.
+
+### 🎯 Key Features
+
+- **🔢 Scale**: 250+ million high-quality temporal QA pairs
+- **📅 Coverage**: Spans multiple centuries of historical events
+- **🌍 Diversity**: Covers events, entities, and timelines across various domains
+- **🧠 Complexity**: 16 distinct question types for comprehensive evaluation
+- **📈 Multi-granular**: Supports temporal reasoning at different time scales
+- **🔗 Multi-hop**: Enables complex inferential reasoning tasks
+
+### 📋 Question Types
+
+| **Attribute Questions** | **Comparison Questions** | **Complex Reasoning** |
+|------------------------|-------------------------|----------------------|
+| 🎯 Event Attribute     | ⚖️ Event Comparison     | 🧠 Causal Reasoning  |
+| 👤 Entity Attribute    | 👥 Entity Comparison    | ⏱️ Duration Estimation |
+| 🕐 Time Attribute      | 📊 Time Comparison      | 📝 Sequence Ordering |
+| **Counting Questions** | **Temporal Analysis**    | **Advanced Reasoning** |
+| 📊 Event Counting      | 🔗 Temporal Clustering  | 🌐 Cross-Domain      |
+| 👥 Entity Counting     | 📏 Multi-Granular       | 🤔 Counterfactual    |
+|                        | 🔄 Temporal Overlap     |                      |
+
+```
+
+## 📊 Dataset Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Questions** | 250+ Million |
+| **Question Types** | 16 Categories |
+| **Time Range** | 1900-2025 |
+| **Domains** | History, Science, Technology, Politics, Culture |
+| **Languages** | English |
+| **Format** | CSV, JSON |
+
+## 🎯 Evaluation Results
+
+Our comprehensive evaluation demonstrates:
+- **Baseline Performance**: Most models struggle with temporal reasoning
+- **Few-shot Learning**: 1-3 shot examples significantly improve performance  
+- **Model Variations**: Significant performance differences across model families
+- **Question Complexity**: Performance varies by temporal question type
+
+## 📖 Citation
+
+```bibtex
+@dataset{megatempqa2025,
+  title={MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs for Language Models},
+  year={2024},
+  publisher={GitHub},
+  url={https://github.com/yourusername/MegaTempQA}
+}
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📝 License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
+---
+**📧 Contact**: [Contact Information]  
+**🌐 Project**: [Project Website]
+```
+
+## requirements.txt
+```txt
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+tqdm>=4.64.0
+python-dateutil>=2.8.0
+
+# Machine Learning
+torch>=1.12.0
+transformers>=4.20.0
+sentence-transformers>=2.2.0
+scikit-learn>=1.1.0
+datasets>=2.0.0
+
+# Model optimization
+accelerate>=0.20.0
+bitsandbytes>=0.39.0
+peft>=0.3.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Development
+jupyter>=1.0.0
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# Optional: For advanced features
+# openai>=0.27.0
+# anthropic>=0.3.0
+```
+
+## setup.py
+```python
+from setuptools import setup, find_packages
+
+setup(
+    name="megatempqa",
+    version="1.0.0",
+    description="Large-Scale Temporal Question-Answer Dataset",
+    packages=find_packages(),
+    python_requires=">=3.8",
+    install_requires=[
+        "pandas>=1.5.0",
+        "numpy>=1.21.0",
+        "torch>=1.12.0",
+        "transformers>=4.20.0",
+        "scikit-learn>=1.1.0",
+        "tqdm>=4.64.0",
+    ],
+    extras_require={
+        "dev": ["pytest>=7.0.0", "black>=22.0.0", "flake8>=4.0.0"],
+        "vis": ["matplotlib>=3.5.0", "seaborn>=0.11.0"],
+        "gpu": ["accelerate>=0.20.0", "bitsandbytes>=0.39.0"],
+    },
+    entry_points={
+        "console_scripts": [
+            "megatempqa-generate=src.generate_dataset:main",
+            "megatempqa-evaluate=src.evaluate_models:main",
+        ],
+    },
+)
+```
+
+## .gitignore
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.csv
+*.json
+*.parquet
+!data/sample_dataset.csv
+!data/schema.json
+data/generated/
+data/raw/
+
+# Models and checkpoints
+models/
+checkpoints/
+*.bin
+*.safetensors
+
+# Results
+results/detailed/
+results/*.csv
+results/*.json
+!results/README.md
+
+# Environment
+.env
+.venv
+venv/
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary
+tmp/
+temp/
+```

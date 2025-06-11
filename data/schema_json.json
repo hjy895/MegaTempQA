@@ -1,0 +1,99 @@
+{
+  "dataset_name": "MegaTempQA",
+  "version": "1.0",
+  "description": "Large-Scale Temporal Question-Answer Dataset Schema",
+  "total_questions": 250000000,
+  "question_types": 16,
+  "fields": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for each question",
+      "example": "evt_attr_001_123456"
+    },
+    "question": {
+      "type": "string",
+      "description": "Question text",
+      "example": "When did World War II begin?"
+    },
+    "answer": {
+      "type": "string", 
+      "description": "Answer text",
+      "example": "1939"
+    },
+    "question_type": {
+      "type": "string",
+      "description": "Type of temporal question",
+      "values": [
+        "attribute_event", "attribute_entity", "attribute_time",
+        "comparison_event", "comparison_entity", "comparison_time",
+        "counting_event", "counting_entity", "causal_reasoning",
+        "duration_estimation", "sequence_ordering", "cross_domain",
+        "temporal_clustering", "multi_granular", "counterfactual",
+        "temporal_overlap"
+      ]
+    },
+    "difficulty": {
+      "type": "integer",
+      "description": "Difficulty level from 1 (very easy) to 5 (very hard)",
+      "range": [1, 5]
+    },
+    "temporal_granularity": {
+      "type": "string",
+      "description": "Time granularity of the question",
+      "values": ["year", "decade", "century", "multiple"]
+    },
+    "time_span_start": {
+      "type": "string",
+      "description": "Start date of temporal range",
+      "format": "YYYY-MM-DD"
+    },
+    "time_span_end": {
+      "type": "string", 
+      "description": "End date of temporal range",
+      "format": "YYYY-MM-DD"
+    },
+    "entities_question": {
+      "type": "string",
+      "description": "JSON array of entities mentioned in question",
+      "example": "[\"World War II\"]"
+    },
+    "countries_question": {
+      "type": "string",
+      "description": "JSON array of countries mentioned in question", 
+      "example": "[\"Germany\", \"United States\"]"
+    },
+    "hop_count": {
+      "type": "integer",
+      "description": "Number of reasoning hops required",
+      "range": [1, 10]
+    },
+    "confidence_score": {
+      "type": "float",
+      "description": "Quality confidence score",
+      "range": [0.0, 1.0]
+    },
+    "domain": {
+      "type": "string",
+      "description": "Subject domain",
+      "values": ["military", "science", "technology", "politics", "culture", "sports", "general"]
+    },
+    "requires_calculation": {
+      "type": "boolean",
+      "description": "Whether question requires mathematical calculation"
+    },
+    "complexity_score": {
+      "type": "float", 
+      "description": "Complexity rating",
+      "range": [0.0, 1.0]
+    },
+    "source_type": {
+      "type": "string",
+      "description": "Type of data source",
+      "values": ["curated", "generated", "template"]
+    },
+    "batch_id": {
+      "type": "integer",
+      "description": "Batch number this question belongs to"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+id,question,answer,question_type,difficulty,temporal_granularity,time_span_start,time_span_end,entities_question,countries_question,hop_count,confidence_score,domain,requires_calculation,complexity_score,source_type,batch_id
+evt_attr_001_123456,When did World War II begin?,1939,attribute_event,2,year,1800-01-01,2025-12-31,"[""World War II""]","[""Global""]",1,0.95,military,false,0.3,curated,1
+evt_attr_001_123457,Where did the Moon landing occur?,United States,attribute_event,2,year,1800-01-01,2025-12-31,"[""Moon Landing""]","[""United States""]",1,0.95,science,false,0.3,curated,1
+evt_comp_001_123458,Which happened first: WWI or WWII?,World War I,comparison_event,3,year,1800-01-01,2025-12-31,"[""World War I"", ""World War II""]","[""Europe"", ""Global""]",2,0.90,military,false,0.6,curated,1
+ent_attr_001_123459,When was Albert Einstein born?,1879,attribute_entity,2,year,1800-01-01,2025-12-31,"[""Albert Einstein""]","[""Germany""]",1,0.95,science,false,0.3,curated,1
+evt_count_001_123460,How many world wars occurred in the 20th century?,2,counting_event,3,decade,1900-01-01,2000-12-31,"[]","[]",2,0.98,military,true,0.7,curated,1
