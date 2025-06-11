@@ -10,7 +10,7 @@ MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs
 
 **MegaTempQA** is the largest temporal question answering dataset to date, containing over **250 million** carefully curated question-answer pairs designed to evaluate temporal reasoning capabilities in large language models.
 
-![adwa](https://github.com/user-attachments/assets/4cf42cfc-01a2-4f9e-bb4e-e81dc91a4977)
+![image](https://github.com/user-attachments/assets/89200455-7117-41d1-86e1-11adae6d8117)
 
 ### 🎯 Key Features
 
