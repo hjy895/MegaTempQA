@@ -31,24 +31,6 @@ MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs
 | 👥 Entity Counting     | 📏 Multi-Granular       | 🤔 Counterfactual    |
 |                        | 🔄 Temporal Overlap     |                      |
 
-## 🚀 Quick Start
-
-### Installation
-```bash
-git clone https://github.com/yourusername/MegaTempQA.git
-cd MegaTempQA
-pip install -r requirements.txt
-```
-
-### Dataset Generation
-```bash
-python -m src.generate_dataset --output_dir data/generated --num_batches 5
-```
-
-### Model Evaluation
-```bash
-python -m src.evaluate_models --dataset data/sample_dataset.csv --output_dir results
-```
 
 ## 📁 Repository Structure
 
@@ -118,7 +100,7 @@ Our comprehensive evaluation demonstrates:
 ```bibtex
 @dataset{megatempqa2025,
   title={MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs for Language Models},
-  year={2024},
+  year={2025},
   publisher={GitHub},
   url={https://github.com/yourusername/MegaTempQA}
 }
@@ -127,11 +109,3 @@ Our comprehensive evaluation demonstrates:
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues and enhancement requests.
-
-## 📝 License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
-
----
-**📧 Contact**: [Contact Information]  
-**🌐 Project**: [Project Website]
