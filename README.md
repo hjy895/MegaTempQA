@@ -86,7 +86,7 @@ Data Availability Statement: The complete dataset supporting the findings of thi
 ## 📊 Sample Datasets for Research
 To facilitate immediate research and experimentation, we provide curated sample datasets through multiple channels:
 
-🤗 Hugging Face Hub: Representative samples (1M QA pairs) available at huggingface.co/datasets/hjav/MegaTempQA
+🤗 Hugging Face Hub: Samples (1M QA pairs) available at ([huggingface.co/datasets/hjav/MegaTempQA](https://huggingface.co/datasets/hjav/MegaTempQA))
 
 📊 GitHub Repository: Samples with multiple domain examples in the /samples directory
 
