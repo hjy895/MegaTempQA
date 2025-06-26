@@ -88,7 +88,7 @@ To facilitate immediate research and experimentation, we provide curated sample 
 
 🤗 Hugging Face Hub: Representative samples (1M QA pairs) available at huggingface.co/datasets/hjav/MegaTempQA
 
-📊 GitHub Repository: Structured samples with preprocessing examples in the /samples directory
+📊 GitHub Repository: Samples with multiple domain examples in the /samples directory
 
 🔬 Research Portal: Domain-specific subsets for targeted evaluation
 
