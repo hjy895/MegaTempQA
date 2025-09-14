@@ -1,6 +1,6 @@
 # MegaTempQA
-MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs
-# 🕰️ MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs
+MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs
+# 🕰️ MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -8,14 +8,14 @@ MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs
 
 ## 📊 Overview
 
-**MegaTempQA** is the largest temporal question answering dataset to date, containing over **250 million** carefully curated question-answer pairs designed to evaluate temporal reasoning capabilities in large language models. Further details and resource evaluation answers available here:📄[MegaTempQA_Supplementary_Material.pdf](https://github.com/user-attachments/files/20941884/MegaTempQA_Supplementary_Material.pdf)
+**MegaTempQA** is the largest temporal question answering dataset to date, containing over **million** carefully curated question-answer pairs designed to evaluate temporal reasoning capabilities in large language models. Further details and resource evaluation answers available here:📄[MegaTempQA_Supplementary_Material.pdf](https://github.com/user-attachments/files/20941884/MegaTempQA_Supplementary_Material.pdf)
 
 
 ![image](https://github.com/user-attachments/assets/89200455-7117-41d1-86e1-11adae6d8117)
 
 ### 🎯 Key Features
 
-- **🔢 Scale**: 250+ million high-quality temporal QA pairs
+- **🔢 Scale**: million high-quality temporal QA pairs
 - **📅 Coverage**: Spans multiple centuries of historical events
 - **🌍 Diversity**: Covers events, entities, and timelines across various domains
 - **🧠 Complexity**: 16 distinct question types for comprehensive evaluation
