@@ -2,16 +2,16 @@
 
 ## README.md
 ```markdown
-# 🕰️ MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs
+# 🕰️ MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs
 
 
 ## 📊 Overview
 
-**MegaTempQA** is the largest temporal question answering dataset to date, containing over **250 million** carefully curated question-answer pairs designed to evaluate temporal reasoning capabilities in large language models.
+**MegaTempQA** is the largest temporal question answering dataset to date, containing over **million** carefully curated question-answer pairs designed to evaluate temporal reasoning capabilities in large language models.
 
 ### 🎯 Key Features
 
-- **🔢 Scale**: 250+ million high-quality temporal QA pairs
+- **🔢 Scale**: million high-quality temporal QA pairs
 - **📅 Coverage**: Spans multiple centuries of historical events
 - **🌍 Diversity**: Covers events, entities, and timelines across various domains
 - **🧠 Complexity**: 16 distinct question types for comprehensive evaluation
@@ -36,7 +36,7 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Questions** | 250+ Million |
+| **Total Questions** | Million |
 | **Question Types** | 16 Categories |
 | **Time Range** | 1900-2025 |
 | **Domains** | History, Science, Technology, Politics, Culture |
@@ -55,7 +55,7 @@ Our comprehensive evaluation demonstrates:
 
 ```bibtex
 @dataset{megatempqa2025,
-  title={MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs for Language Models},
+  title={MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs for Language Models},
   year={2024},
   publisher={GitHub},
   url={https://github.com/yourusername/MegaTempQA}
