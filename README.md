@@ -92,7 +92,7 @@ To facilitate immediate research and experimentation, we provide curated sample 
 
 | Metric | Value |
 |--------|-------|
-| **Total Questions** | 250+ Million |
+| **Total Questions** | Million |
 | **Question Types** | 16 Categories |
 | **Time Range** | 1900-2025 |
 | **Domains** | History, Science, Technology, Politics, Culture |
@@ -111,7 +111,7 @@ Our comprehensive evaluation demonstrates:
 
 ```bibtex
 @dataset{megatempqa2025,
-  title={MegaTempQA: A Large-Scale Dataset of 250 Million Temporal Question-Answer Pairs for Language Models},
+  title={MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs for Language Models},
   year={2025},
 }
 ```
