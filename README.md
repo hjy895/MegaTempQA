@@ -111,7 +111,8 @@ Our comprehensive evaluation demonstrates:
 ```bibtex
 @dataset{megatempqa2025,
   title={MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs for Language Models},
-  year={2025},
+  year={20256},
+  Accepted in ICASSP 2026
 }
 ```
 
