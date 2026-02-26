@@ -74,9 +74,9 @@ MegaTempQA/
     └── test_generation.py           # Generation tests
 ```
 ## 📊 Complete Dataset Access
-Due to the substantial size of our dataset (exceeding 200GB), the complete MegaTempQA dataset is available through institutional data sharing agreements. The dataset is provided in its raw, unstructured format to preserve data integrity and enable diverse research applications.
+Due to the substantial size of our dataset, the complete MegaTempQA dataset is available through institutional data sharing agreements. The dataset is provided in its raw, unstructured format to preserve data integrity and enable diverse research applications.
 
-Data Availability Statement: The complete dataset supporting the findings of this study is available from the corresponding authors upon reasonable request. Due to the large-scale nature of the data (200+ GB), researchers are encouraged to specify their computational requirements and intended use cases when requesting access. Given the unstructured nature of the complete dataset, researchers should implement appropriate preprocessing pipelines tailored to their specific research objectives. 
+Data Availability Statement: The complete dataset supporting the findings of this study is available from the corresponding authors upon reasonable request. Due to the large-scale nature of the data, researchers are encouraged to specify their computational requirements and intended use cases when requesting access. Given the unstructured nature of the complete dataset, researchers should implement appropriate preprocessing pipelines tailored to their specific research objectives. 
 
 ## 📊 Sample Datasets for Research
 To facilitate immediate research and experimentation, we provide curated sample datasets through multiple channels:
