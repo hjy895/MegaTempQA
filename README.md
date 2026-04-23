@@ -1,6 +1,6 @@
 # MegaTempQA
 MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs
-# 🕰️ MEGATEMPQA: A MILLION-SCALE TEMPORAL QUESTION-ANSWER DATASET FOR REDUCING LLM HALLUCINATIONS!
+# 🕰️ MEGATEMPQA: A MILLION-SCALE TEMPORAL QUESTION-ANSWER DATASET FOR REDUCING LLM HALLUCINATIONS
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 
