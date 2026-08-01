@@ -106,16 +106,6 @@ Our comprehensive evaluation demonstrates:
 - **Model Variations**: Significant performance differences across model families
 - **Question Complexity**: Performance varies by temporal question type
 
-## 📖 Citation
-
-```bibtex
-@dataset{megatempqa2025,
-  title={MegaTempQA: A Large-Scale Dataset of Million Temporal Question-Answer Pairs for Language Models},
-  year={20256},
-  Accepted in ICASSP 2026
-}
-```
-
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues and enhancement requests.
