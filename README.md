@@ -1,12 +1,5 @@
-# MegaTempQA
-
-# 🕰️ MEGATEMPQA: A Million-Scale Temporal Question-Answer Dataset for Reducing LLM Hallucinations
-
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 
-## 📊 Overview
-
-**MegaTempQA** is the largest temporal question answering dataset to date, containing over **million** carefully curated question-answer pairs designed to evaluate temporal reasoning capabilities in large language models. 
 
 ### 🎯 Key Features
 
