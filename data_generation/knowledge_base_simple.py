@@ -10,13 +10,19 @@ class KnowledgeBase:
         self.people = []
         self.organizations = []
     
-    def load(self):
-        """Load all knowledge base data"""
-        print("🧠 Loading knowledge base...")
-        self._load_events()
-        self._load_people()
-        self._load_organizations()
-        print(f"✅ Loaded: {len(self.events)} events, {len(self.people)} people, {len(self.organizations)} orgs")
+def load(self):
+    print("Loading knowledge base from Wikipedia/Wikidata...")
+    self.events = []
+    raw_rows = []  # Add yours Wikipedia/Wikidata pipeline and evaluate accordingly
+    for row in raw_rows:
+        if not row.get("name") or row.get("year") is None:
+            continue
+        self.events.append({
+            "name": row["name"],
+            "year": int(row["year"]),
+            "location": row.get("location"),
+            "domain": row.get("domain"),
+        })
     
     def get_stats(self):
         """Get knowledge base statistics"""
